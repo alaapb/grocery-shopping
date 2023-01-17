@@ -1,0 +1,10 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this com.example.groceryshopping.repository is going to shut down soon
+    }
+}
+rootProject.name = "groceryshopping"
+include ':app'
